@@ -1,13 +1,13 @@
 import cv2
-import dlib
+import dlib     #to detect faces and images
 import numpy as np
 class Allign:
     def __init__(self):
         self.pred=dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 
-    def tup(self,a,b,c,d):
+    def tup(self,a,b,c,d): #tup used for rectangular region creation for face 
         return dlib.rectangle(int(a),int(b),int(c),int(d))
-    def Al(self,faces):
+    def Al(self,faces): #Al used for finding angles of the face using landmarks in face
         w,h=faces.shape[:2]
         grey=cv2.cvtColor(faces,cv2.COLOR_BGR2GRAY)
         d=self.tup(0,0,w,h)

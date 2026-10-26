@@ -1,7 +1,7 @@
-import json
+import json 
 import h5py
 import warnings
-import tensorflow as tf
+import tensorflow as tf #provides the deep learning framework
 from tensorflow.keras.layers import Layer
 from tensorflow.keras import Model
 from tensorflow.keras.saving import register_keras_serializable

@@ -1,8 +1,8 @@
-import os
-import pymongo
-import cv2
-import numpy as np
-import pandas as pd
+import os #python operating system
+import pymongo # python code to mongodb database
+import cv2 # python code to opencv
+import numpy as np # python code to create numpy array
+import pandas as pd # python code to create pandas dataframe
 import warnings
 import tkinter as tk
 warnings.filterwarnings("ignore")

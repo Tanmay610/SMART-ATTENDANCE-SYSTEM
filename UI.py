@@ -170,7 +170,7 @@ progress = ttk.Progressbar(frame2, length=260, orient=tk.HORIZONTAL, mode='deter
 progress.place(relx=0.22, rely=0.74)
 
 # Watermark label in bottom right corner
-watermark_lbl = tk.Label(frame2, text="Designed & Developed by Khosla", fg="#9ca3af", bg="#ffffff",
+watermark_lbl = tk.Label(frame2, text="Designed & Developed by Tanmay Khosla", fg="#9ca3af", bg="#ffffff",
                          font=('Helvetica', 10, 'italic'))
 watermark_lbl.place(relx=0.32, rely=0.92)
 
